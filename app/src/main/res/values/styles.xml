@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+
+    <style name="ActionBar" parent="android:Widget.Material.ActionBar">
+        <item name="android:titleTextStyle">@style/TextColor</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <style name="TextColor" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+</resources>
